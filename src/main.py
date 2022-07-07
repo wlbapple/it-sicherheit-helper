@@ -1,5 +1,5 @@
 import PySimpleGUI as sg
-from tasks import task1,task2,task3,task4
+from tasks import task1,task2,task3
 
 
 
@@ -27,6 +27,4 @@ while True:
         task2.create_task2()
     elif event == 'Padding':
         task3.create_task3()
-    elif event == 'AES-CBC-Block':
-        task4.create_task4()
 window.close()
