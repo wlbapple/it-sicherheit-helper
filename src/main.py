@@ -8,7 +8,7 @@ sg.theme('DarkBlue')
 layout = [
     [sg.Text('This is a program for the IT-Security lecture')],
     [sg.Button('Urns experiment'), sg.Button(
-        'OTP'), sg.Button('Padding'), sg.Button('AES-CBC-Block')],
+        'OTP'), sg.Button('Padding')],
     [sg.Button('close')]
 ]
 
